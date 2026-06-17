@@ -39,7 +39,7 @@ completo de préstamos, incluyendo devoluciones individuales por libro dentro de
 
 | Diagrama Entidad-Relación Extendido (EER) |
 |:---:|
-| <img src="" alt="Diagrama Entidad-Relación Extendido" width="800"/> |
+| <img src="https://github.com/PerlaSantos/BibliotecaDigital/blob/24b1af16882dcf6766064bf75e0272ea6752af3b/docs/eer_biblioteca_digital.png" alt="Diagrama Entidad-Relación Extendido" width="800"/> |
 
 ### Transformación al Modelo Relacional
 
@@ -47,7 +47,7 @@ Una vez validado el diagrama EER, procedimos a su transformación al modelo rela
 
 | Modelo Relacional |
 |:---:|
-| <img src="" alt="Modelo Relacional" width="800"/> |
+| <img src="https://github.com/PerlaSantos/BibliotecaDigital/blob/24b1af16882dcf6766064bf75e0272ea6752af3b/docs/modelo_relacional_biblioteca.png" alt="Modelo Relacional" width="800"/> |
 
 
 **Notación usada:**
@@ -60,7 +60,7 @@ Una vez validado el diagrama EER, procedimos a su transformación al modelo rela
 
 ---
 
-## 🛠 Instrucciones de instalación y ejecución
+##  Instrucciones de instalación y ejecución
 
 ### Requisitos
 
