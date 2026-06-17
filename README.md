@@ -8,34 +8,16 @@
 
 ##  Integrantes del equipo
 
-|
- Nombre 
-|
- Rol 
-|
-|
---------
-|
------
-|
-|
+
  Alarcon Herrera Julio Alexis 
-|
- Diseño del esquema, Parte 1 
-|
-|
+
  Cedillo Baeza Martha Clara 
-|
- Operadores avanzados, Parte 2 
-|
-|
+
  Santos Martínez Perla 
-|
- Cálculo relacional, Parte 3 
-|
+
 
 **Profesor:** Gabriel Hurtado Avilés  
-**Fecha de entrega:** 25/05/2026
+**Fecha de entrega:** 16/06/2026
 
 ---
 
@@ -55,12 +37,17 @@ completo de préstamos, incluyendo devoluciones individuales por libro dentro de
 
 ---
 
-##  Diagrama EER Extendido
+| Diagrama Entidad-Relación Extendido (EER) |
+|:---:|
+| <img src="" alt="Diagrama Entidad-Relación Extendido" width="800"/> |
 
+### Transformación al Modelo Relacional
 
+Una vez validado el diagrama EER, procedimos a su transformación al modelo relacional, obteniendo un esquema de 15 tablas que normalizan la información y evitan redundancias. Se definieron claves primarias y foráneas, junto con restricciones de integridad (CHECK, NOT NULL, UNIQUE, DEFAULT) para garantizar la calidad de los datos. La siguiente imagen presenta el esquema relacional resultante.
 
-##  Modelo Relacional
-
+| Modelo Relacional |
+|:---:|
+| <img src="" alt="Modelo Relacional" width="800"/> |
 
 
 **Notación usada:**
@@ -129,24 +116,7 @@ BibliotecaDigital/
 
 > **Definición:** `σ_condición(R)` — Selecciona las tuplas de R que satisfacen la condición.
 
-|
-#
-|
- Tipo de condición 
-|
- Expresión AR 
-|
- SQL 
-|
-|
----
-|
--------------------
-|
---------------
-|
------
-|
+
 |
  1 
 |
@@ -244,24 +214,7 @@ BibliotecaDigital/
 
 > **Definición:** `π_atributos(R)` — Extrae columnas específicas, eliminando duplicados.
 
-|
-#
-|
- Tipo 
-|
- Expresión AR 
-|
- SQL 
-|
-|
----
-|
-------
-|
---------------
-|
------
-|
+
 |
  1 
 |
@@ -553,24 +506,7 @@ FROM PRESTAMO p1 JOIN PRESTAMO p2 ON p1.id_usuario = p2.id_usuario AND p1.id_pre
 
 ### Ejercicio 2.2 — Funciones de Agregación (ℱ)
 
-|
-#
-|
- AR 
-|
- SQL 
-|
- Resultado 
-|
-|
----
-|
------
-|
------
-|
------------
-|
+
 |
  1 
 |
@@ -774,20 +710,7 @@ HAVING COUNT(DISTINCT estado) = (SELECT COUNT(DISTINCT estado) FROM PRESTAMO);
 
 ### Resumen de la Parte 3
 
-|
- Ejercicio 
-|
- Contenido 
-|
- Cantidad 
-|
-|
------------
-|
------------
-|
-----------
-|
+
 |
  3.1 CRT 
 |
